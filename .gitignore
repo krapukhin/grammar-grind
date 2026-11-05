@@ -1,0 +1,19 @@
+# Databases: they may contain drafts
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Draft source files
+drafts/
+
+# Python
+__pycache__/
+.venv/
+
+# Environment
+.env
+
+# macOS
+.DS_Store
