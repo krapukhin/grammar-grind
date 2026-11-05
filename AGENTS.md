@@ -24,6 +24,16 @@ Drafts (rows with `source = 'draft'` in `prompts` and `grammar_texts`) exist onl
 - `db_schema.md`: database structure. Update it with every schema change.
 - `history.md`: log of completed work. Add an entry after finishing a piece of work.
 
+## Branches
+
+The project uses GitHub Flow, with `dev` as the base branch instead of `main`.
+
+- `dev` is the main development branch and the base for all new branches.
+- `main` holds more or less stable versions. Merge `dev` into `main` only when the project owner asks.
+- Each change gets one short-lived branch created from `dev` and named `<type>/<short-description>`, where the type is a commit type, for example `feat/answer-check`.
+- Do not commit directly to `main` or `dev`. Changes reach them through pull requests.
+- Delete a working branch after it is merged.
+
 ## Commits
 
 Commit messages follow [Conventional Commits](https://www.conventionalcommits.org/):

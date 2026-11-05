@@ -7,6 +7,7 @@ Log of completed work in the project. New entries are added at the top.
 - Added a commit convention to `AGENTS.md`.
 - Decided that commit messages and all repository text are in English, except learner-facing Russian content. Translated the existing documents.
 - Created the GitHub repository `krapukhin/grammar-grind`, initialized git and added `.gitignore`. Draft source files go into the ignored `drafts/` folder.
+- Adopted GitHub Flow, with `dev` as the main development branch and more or less stable versions rolled out to `main`.
 
 ## 2026-11-04
 
